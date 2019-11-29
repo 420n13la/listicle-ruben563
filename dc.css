@@ -1,0 +1,280 @@
+*{
+  box-sizing:border-box;
+  padding:0px;
+  margin:0px;
+}
+  nav{
+  background-color:white;
+  height:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  position:fixed;
+  width:100%;
+}
+a{
+  text-decoration:none;
+  color:black;
+  font-size:25px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+a:hover{
+  color:gold;
+  font-size:30px;
+}
+body{
+  background-image: url("https://data.whicdn.com/images/306425309/original.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.wrapper{
+  background-color:gold;
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:80px;
+  padding-top:1px;
+  padding-bottom:30px;
+  border-radius:5px;
+}
+header{
+  background-color:#660a0a;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:66%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.superman{
+  border-radius: 100%;
+  border:solid 2px white;
+  width:66%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  justify-content:center;
+  width:100px;
+  margin-top:-50px; 
+}
+h1{
+  color:white;
+  font-size:50px;
+  font-family: 'Calistoga', cursive;
+  text-align:center;
+}
+.span{
+  font-weight: bold;
+  color:black;
+  display:flex;
+  justify-content:center;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.span2{
+  color:black;
+  font-size:12px;
+  font-style:italic;
+  display:flex;
+  justify-content:center;
+  margin-top:-15px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+figcaption{
+  background-color:white;
+  width:30%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:5px 5px 10px 10px;
+  padding-top:30px;
+  padding-bottom:5px;
+  margin-top:-25px;
+  border:solid 4px #660a0a;
+  border-top:none;
+  margin-bottom:-50px;
+  text-align:center;
+  font-family: 'Calistoga', cursive;
+}
+
+h2{
+  color:white;
+  font-size:35px;
+  margin-bottom:25px;
+  font-family: 'Calistoga', cursive;
+}
+
+p{
+  font-size:20px;
+  font-family: 'Roboto', sans-serif;
+}
+.imgdc{
+  width:150px;
+  display:flex;
+  border: solid 5px white;
+}
+
+.dcinfo{
+  color:white;
+  border-radius:10px;
+  background-color:#660a0a;
+  background-position:center;
+  background-size:cover;
+  padding:20px;
+  border:solid 3px white;
+}
+.dccinfo{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  margin-bottom:120px;
+}
+
+footer{
+  background-color:#660a0a;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:200px;
+  box-sizing:border-box;
+  margin-bottom:-30px;
+}
+.nav3{
+  display:none;
+}
+.nav4{
+  display:none;
+}
+p{
+  font-size:20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 1000px)  {
+  body{
+    background-color:#070e45;
+  }
+  a{
+    font-size:25px;
+    margin-right:10px;
+  }
+  a:hover{
+    font-size:27px
+  }
+  figcaption{
+    width:50%
+  }
+  footer{
+    height:100px;
+  }
+  p{
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  header{
+   width:100%;
+  }
+  
+  body{
+    background-color:gold;
+    background-image:none;
+  }
+  a{
+    font-size:18px;
+  }
+  
+  a:hover{
+    font-size:20px;
+  }
+  .nav1{
+    display:none;
+  }
+  .nav2{
+    display:none;
+  }
+  figcaption{
+    width:80%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top:-24px;
+  }
+  
+  .span2{
+    display:none;
+  }
+  .wrapper{
+    box-sizing:border-box;
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-right:0px;
+    padding-left:0px;
+  }
+  .marvel{
+    width:100%;
+  }
+  .minfo{
+    border:none;
+    border-radius:0px;
+    background-color:#660a0a;
+  }
+  .dc{
+    width:100%;
+  }
+  .dcinfo{
+    border:none;
+    border-radius:0px;
+    background-color:#660a0a;
+   
+  }
+  .imgdc{
+    width:120px;
+    margin:10px;
+  }
+  h2{
+   padding-left:10px;
+    color:white;
+  }
+  p{
+    font-size:15px;
+  }
+  .characters{
+    width:100%;
+  }
+  .cinfo{
+    border:none;
+    border-radius:0px;
+    background-color:#660a0a;
+  }
+  
+  h3{
+    margin:0px;
+  }
+  footer{
+    height:100px;
+    margin-top:-50px
+  }
+  .nav3{
+    display:block;
+  }
+  .nav4{
+    display:block;
+  }
